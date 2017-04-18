@@ -1,9 +1,14 @@
-# api documentation for  circuit-breaker-js (v0.0.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-circuit-breaker-js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-circuit-breaker-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js)
+# npmdoc-circuit-breaker-js
+
+#### api documentation for  circuit-breaker-js (v0.0.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-circuit-breaker-js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-circuit-breaker-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js)
+
 #### Hystrix-like circuit breaker for JavaScript.
 
-[![NPM](https://nodei.co/npm/circuit-breaker-js.png?downloads=true)](https://www.npmjs.com/package/circuit-breaker-js)
+[![NPM](https://nodei.co/npm/circuit-breaker-js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/circuit-breaker-js)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-circuit-breaker-js/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-circuit-breaker-js_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-circuit-breaker-js/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-circuit-breaker-js/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-circuit-breaker-js/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-circuit-breaker-js/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-circuit-breaker-js/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-circuit-breaker-js/build/screenCapture.npmPackageListing.svg)
 
@@ -38,13 +43,11 @@
     "main": "circuit-breaker.js",
     "maintainers": [
         {
-            "name": "unindented",
-            "email": "unindented@gmail.com"
+            "name": "unindented"
         }
     ],
     "name": "circuit-breaker-js",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git@github.int.yammer.com:yammer/circuit-breaker-js.git"
@@ -55,19 +58,6 @@
     "version": "0.0.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module circuit-breaker-js](#apidoc.module.circuit-breaker-js)
-1.  number <span class="apidocSignatureSpan">circuit-breaker-js.</span>CLOSED
-1.  number <span class="apidocSignatureSpan">circuit-breaker-js.</span>HALF_OPEN
-1.  number <span class="apidocSignatureSpan">circuit-breaker-js.</span>OPEN
-
-
-
-# <a name="apidoc.module.circuit-breaker-js"></a>[module circuit-breaker-js](#apidoc.module.circuit-breaker-js)
 
 
 
