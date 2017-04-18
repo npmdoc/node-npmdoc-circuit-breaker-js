@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,15 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-    >circuit-breaker-js (v0.0.1)</a>
+    <a>circuit-breaker-js (v0.0.1)</a>
 </h1>
 <h4>Hystrix-like circuit breaker for JavaScript.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.circuit-breaker-js">module circuit-breaker-js</a><ol>
 
@@ -180,7 +175,7 @@
     connect: {
       test: {
         options: {
-          hostname: &#x27;*&#x27;,
+          hostname: '*',
           port:     4000
         }
       }
@@ -189,40 +184,40 @@
     jasmine: {
       all: {
         src: [
-          &#x27;circuit-breaker.js&#x27;
+          'circuit-breaker.js'
         ],
         options: {
-          specs:   &#x27;spec/**/*.js&#x27;
+          specs:   'spec/**/*.js'
         }
       }
     },
 
     jshint: {
-      all: [&#x27;Gruntfile.js&#x27;, &#x27;circuit-breaker.js&#x27;],
+      all: ['Gruntfile.js', 'circuit-breaker.js'],
       options: {
-        jshintrc: &#x27;.jshintrc&#x27;
+        jshintrc: '.jshintrc'
       }
     }
   });
 
-  grunt.loadNpmTasks(&#x27;grunt-contrib-connect&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jasmine&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jshint&#x27;);
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-jasmine');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask(&#x27;lint&#x27;,
-    &#x27;Lints the source&#x27;,
-    [&#x27;jshint:all&#x27;]);
+  grunt.registerTask('lint',
+    'Lints the source',
+    ['jshint:all']);
 
-  grunt.registerTask(&#x27;test&#x27;,
-    &#x27;Runs the test suite in PhantomJS&#x27;,
-    [&#x27;jasmine:all&#x27;]);
+  grunt.registerTask('test',
+    'Runs the test suite in PhantomJS',
+    ['jasmine:all']);
 
-  grunt.registerTask(&#x27;test:browser&#x27;,
-    &#x27;Runs the test suite in a browser&#x27;,
-    [&#x27;jasmine:all:build&#x27;, &#x27;connect:test:keepalive&#x27;]);
+  grunt.registerTask('test:browser',
+    'Runs the test suite in a browser',
+    ['jasmine:all:build', 'connect:test:keepalive']);
 
-  grunt.registerTask(&#x27;default&#x27;,
-    [&#x27;lint&#x27;, &#x27;test&#x27;]);
+  grunt.registerTask('default',
+    ['lint', 'test']);
 
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -269,7 +264,7 @@
     connect: {
       test: {
         options: {
-          hostname: &#x27;*&#x27;,
+          hostname: '*',
           port:     4000
         }
       }
@@ -278,40 +273,40 @@
     jasmine: {
       all: {
         src: [
-          &#x27;circuit-breaker.js&#x27;
+          'circuit-breaker.js'
         ],
         options: {
-          specs:   &#x27;spec/**/*.js&#x27;
+          specs:   'spec/**/*.js'
         }
       }
     },
 
     jshint: {
-      all: [&#x27;Gruntfile.js&#x27;, &#x27;circuit-breaker.js&#x27;],
+      all: ['Gruntfile.js', 'circuit-breaker.js'],
       options: {
-        jshintrc: &#x27;.jshintrc&#x27;
+        jshintrc: '.jshintrc'
       }
     }
   });
 
-  grunt.loadNpmTasks(&#x27;grunt-contrib-connect&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jasmine&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jshint&#x27;);
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-jasmine');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask(&#x27;lint&#x27;,
-    &#x27;Lints the source&#x27;,
-    [&#x27;jshint:all&#x27;]);
+  grunt.registerTask('lint',
+    'Lints the source',
+    ['jshint:all']);
 
-  grunt.registerTask(&#x27;test&#x27;,
-    &#x27;Runs the test suite in PhantomJS&#x27;,
-    [&#x27;jasmine:all&#x27;]);
+  grunt.registerTask('test',
+    'Runs the test suite in PhantomJS',
+    ['jasmine:all']);
 
-  grunt.registerTask(&#x27;test:browser&#x27;,
-    &#x27;Runs the test suite in a browser&#x27;,
-    [&#x27;jasmine:all:build&#x27;, &#x27;connect:test:keepalive&#x27;]);
+  grunt.registerTask('test:browser',
+    'Runs the test suite in a browser',
+    ['jasmine:all:build', 'connect:test:keepalive']);
 
-  grunt.registerTask(&#x27;default&#x27;,
-    [&#x27;lint&#x27;, &#x27;test&#x27;]);
+  grunt.registerTask('default',
+    ['lint', 'test']);
 
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -344,3 +339,4 @@
     ]
 </div>
 </div>
+</body></html>
