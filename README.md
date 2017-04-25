@@ -1,6 +1,6 @@
 # npmdoc-circuit-breaker-js
 
-#### api documentation for  circuit-breaker-js (v0.0.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-circuit-breaker-js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-circuit-breaker-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js)
+#### basic api documentation for  circuit-breaker-js (v0.0.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-circuit-breaker-js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-circuit-breaker-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-circuit-breaker-js)
 
 #### Hystrix-like circuit breaker for JavaScript.
 
@@ -55,7 +55,8 @@
     "scripts": {
         "test": "grunt"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
